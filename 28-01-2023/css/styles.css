@@ -1,0 +1,21 @@
+/* retirar as margens externas e internas de toda as tags html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center; /*alinhar o texto ao centro*/
+    font-size: 40pt; /*tamanho de letra é bom usar a medida pt, que tipo word do office- milimetros,centimetros,metros é para midia print arquivo de impressão*/
+    margin-bottom: 100px; /*medida px é fixa não importa a tela */
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;/*alinha texto- justificado*/
+    line-height: 40px; /*Altura das linhas-aumenta as distância entre as letras*/
+    text-indent: 50px; /*Recuo da primeira linha(definição do primeiro paragrafo)*/
+    cursor: pointer;/*autera o cursor do mouse para uma mãozinha*/
+}
